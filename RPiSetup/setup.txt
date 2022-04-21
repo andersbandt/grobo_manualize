@@ -1,0 +1,15 @@
+sudo apt-get install git build-essential python-dev
+sudo apt-get install i2c-tools
+sudo apt-get install wiringpi
+
+CircuitPython bundle:
+sudo pip3 install adafruit-circuitpython-lis3dh
+
+PCA9685 (PWM)
+sudo pip3 install adafruit-circuitpython-pca9685
+
+MCP23008 (GPIO)
+sudo pip3 install adafruit-circuitpython-mcp230xx
+
+LM75 (Temp)
+sudo pip3 install adafruit-circuitpython-pct2075
